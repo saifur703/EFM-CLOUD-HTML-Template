@@ -229,7 +229,9 @@ a.border-btn {
     left: 2%;
     bottom: 10px;
     background-color: #ddd;
-    padding: 10px 15px;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
@@ -240,9 +242,20 @@ a.border-btn {
     -o-border-radius: 50%;
     font-weight: 300;
     z-index: 99;
+    text-align: center;
+}
+
+.scrollTop:hover {
+    background: #3949a0;
+}
+
+.scrollTop:hover a {
+    color: #fff;
 }
 
 .scrollTop a {
     font-size: 18px;
     color: #333;
+    line-height: 40px;
+    display: inline-block;
 }
