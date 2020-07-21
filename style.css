@@ -1,0 +1,248 @@
+/*=================================
+Author: Mohammad Saifur Rahman
+Updated: 20 July, 2020
+Notes: Hand Coded for Fiverr
+===================================*/
+
+.hero-area {
+    background-image: url("assets/img/img2.jpg");
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 25vh 0;
+}
+
+.hero-text {
+    background-color: rgba(57, 73, 160, 0.9);
+    text-align: center;
+    padding: 70px 50px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.7px;
+    display: block;
+}
+
+.hero-text::after {
+    position: absolute;
+    content: "";
+    left: 30px;
+    top: 20px;
+    width: calc(100% - 60px);
+    height: calc(100% - 40px);
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    z-index: -1;
+}
+
+.hero-text h3 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+a.border-btn {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.border-btn:hover {
+    background: #fff;
+    color: #333;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.second-section-text h4 {
+    color: #3949a0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.second-section-text h2 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 500;
+}
+
+.second-section-text {
+    margin-bottom: 50px;
+}
+
+.second-boxed-text {
+    background: #3949a0;
+    color: #fff;
+}
+
+.single-second-box h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.single-second-box {
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.single-second-box.dark-blue {
+    background: #32408d;
+}
+
+.single-second-box ol {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+.second-bottom-text {
+    color: #263238;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.second-bottom-text h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.blue-area {
+    background: #3949a0;
+    color: #fff;
+}
+
+.blue-area h3,
+.blue-area p {
+    text-align: center;
+}
+
+.form-area {
+    margin-top: 60px;
+}
+
+.form-area label {
+    font-size: 14px;
+    opacity: .6;
+}
+
+.form-area input {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid transparent;
+}
+
+.form-area input:focus {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.form-area input:hover {
+    border: 1px solid #fff;
+}
+
+.form-area input[type=submit] {
+    background: #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.form-area input[type=submit]:hover {
+    opacity: 1;
+}
+
+.form-btn {
+    text-align: center;
+}
+
+.blue-area h3 {
+    font-size: 36px;
+}
+
+.footer-area {
+    background: #242424;
+    padding: 10px 0;
+}
+
+.footer-area,
+.footer-area a {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 300;
+    color: #919191;
+}
+
+.copyright a {
+    text-decoration: underline;
+    font-weight: 400;
+    color: #919191;
+}
+
+.copyright a.site-url {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+.tel-icon,
+.email-icon {
+    position: relative;
+}
+
+.tel-icon-abs,
+.email-icon-abs {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 30px;
+    height: 20px;
+    border-left: 1px solid #ddd;
+    padding-left: 12px;
+    opacity: .6;
+}
+
+.scrollTop {
+    position: fixed;
+    left: 2%;
+    bottom: 10px;
+    background-color: #ddd;
+    padding: 10px 15px;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-weight: 300;
+    z-index: 99;
+}
+
+.scrollTop a {
+    font-size: 18px;
+    color: #333;
+}
